@@ -6,6 +6,7 @@ import requests
 import json
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from pyrogram.enums import ParseMode
 
 API_ID = 29388606
 API_HASH = "ddc1032e4e1fd0216362d18b68afd848"
@@ -83,13 +84,14 @@ async def start(client, message: Message):
         "➤ Download Pinterest Video Pins instantly.\n"
         "➤ Just send me any Pinterest video pin link (pinterest.com or pin.it short links) and I'll fetch the video for you.\n\n"
         "⚠️ Note: Images and carousels are NOT supported. Please use the Pinterest app/website for those.\n\n"
-        "🚀 Fast • Secure • Easy\n"
-        "Share me with your friends if you find this useful!"
+        "<blockquote>🚀 Fast • Secure • Easy\n"
+        "Share me with your friends if you find this useful!</blockquote>"
     )
     if os.path.exists(GREETING_IMAGE):
         await message.reply_photo(
             photo=GREETING_IMAGE,
-            caption=greeting_text
+            caption=greeting_text,
+            parse_mode=ParseMode.HTML
         )
     else:
         await message.reply(
@@ -138,7 +140,7 @@ async def handle_pinterest(client, message: Message):
             video_msg = await client.send_video(message.chat.id, vurl)
             # Send done message after the video (as a reply)
             done_text = (
-                "✅ Here is your Pinterest Video!\n\n"
+                "<blockquote>✅ Here is your Pinterest Video!\n\n</blockquote>"
                 "😊 Thank you for using Pinterest Video Downloader!\n"
                 "If you found this useful, share with your friends 🎉"
             )

@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <b>A smart Telegram bot that automatically adds captions to media you send.</b><br>
-  Built with ❤️ using <code>Python</code> + <code>Pyrogram</code> and deployed on <code>Heroku</code>.
+  <b>A smart Telegram bot that automatically adds captions to any media you send.</b><br>
+  Built with ❤️ using <code>Python</code> + <code>Pyrogram</code> and deployable on <code>Heroku</code>.
 </p>
 
 ---
@@ -16,26 +16,26 @@
 ## 🚀 Features
 
 <ul>
-  <li>📥 Automatically adds file name as caption for videos/documents</li>
-  <li>🖼 Supports images, videos, documents</li>
-  <li>⚡ Fast & lightweight</li>
-  <li>🛠 Easy Heroku Deployment</li>
+  <li>✨ Instantly adds the file name as a caption for videos, documents & images</li>
+  <li>🖼 Supports photos, videos, and all Telegram document types</li>
+  <li>⚡ Super fast & lightweight</li>
+  <li>🛠 Easy one-click Heroku deployment</li>
 </ul>
 
 ---
 
 ## 🧠 How It Works
 
-When you send a file to the bot, it:
-1. Extracts file name
-2. Adds it as caption
-3. Sends it back instantly!
+Just send any file to the bot and it will:
+1. Extract the file name
+2. Add it as the caption
+3. Instantly return the media with the caption!
 
 ---
 
 ## 🔧 Deploy to Heroku
 
-Click this button to deploy instantly to Heroku 👇
+Deploy your own bot to Heroku in seconds 👇
 
 <p align="center">
   <a href="https://heroku.com/deploy?template=https://github.com/yourusername/auto-caption-bot">
@@ -49,13 +49,15 @@ Click this button to deploy instantly to Heroku 👇
 
 ### 🔑 Required Variables
 
-| Variable     | Description                     |
-|--------------|---------------------------------|
-| `API_ID`     | Get it from [my.telegram.org](https://my.telegram.org) |
-| `API_HASH`   | From the same place as above    |
-| `BOT_TOKEN`  | Get it from [@BotFather](https://t.me/BotFather) |
+| Variable     | Description                                       |
+|--------------|---------------------------------------------------|
+| `API_ID`     | From [my.telegram.org](https://my.telegram.org)   |
+| `API_HASH`   | From [my.telegram.org](https://my.telegram.org)   |
+| `BOT_TOKEN`  | From [@BotFather](https://t.me/BotFather)         |
 
-### 🧪 Manual Deploy (Optional)
+---
+
+### 🚀 Manual Deploy (Optional)
 
 ```bash
 git clone https://github.com/yourusername/auto-caption-bot
@@ -63,15 +65,30 @@ cd auto-caption-bot
 heroku create
 heroku config:set API_ID=12345 API_HASH=abc BOT_TOKEN=xyz
 git push heroku main
-🧰 Built With
-Python 🐍
+```
 
-Pyrogram ⚙️
+---
 
-Heroku ☁️
+## 🧰 Built With
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first.
+- Python 🐍
+- Pyrogram ⚙️
+- Heroku ☁️
 
-🧑‍💻 Developer
-<p align="center"> <a href="https://github.com/yourusername">👨‍💻 yourusername</a> </p>
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 👨‍💻 Developer
+
+<p align="center">
+  <a href="https://github.com/Professor070">👨‍💻 Professor070</a>
+</p>
+
+---
+
+<p align="center"><b>⭐ Star this repo if you like it!</b></p>

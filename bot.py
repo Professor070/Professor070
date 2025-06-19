@@ -4,7 +4,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from config import API_ID, API_HASH, BOT_TOKEN
-image = r'Auto Caption Bot\Untitled_design.jpg'
+image = 'photo_2025-06-19_18-26-58.jpg'
 
 # ─── Logging Configuration ─────────────────────────────────────────────
 logging.basicConfig(
@@ -63,15 +63,19 @@ async def set_caption(client, message: Message):
         captions[channel_id] = caption
         save_captions(captions)
         await message.reply(
-            "<b>✅ Custom Caption Saved!</b>\n\n"
-            f"<b>📝 Your New Caption:</b>\n<code>{caption}</code>\n\n"
-            "<b>🔧 Tip:</b>\n"
-            "<pre>Use {filename} to insert the video title.</pre>\n"
-            "The <i>{filename}</i> tag will be automatically replaced with the video’s name in a stylish Unicode font. 🎬✨"
+            "<b>✨ 𝐂𝐮𝐬𝐭𝐨𝐦 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐒𝐚𝐯𝐞𝐝! ✨</b>\n\n"
+            "<b>📝 𝐘𝐨𝐮𝐫 𝐧𝐞𝐰 𝐜𝐚𝐩𝐭𝐢𝐨𝐧:</b>\n"
+            f"<code>{caption}</code>\n\n"
+            "<b>🔧 𝐓𝐢𝐩:</b>\n"
+            "<pre>Use {filename} in your caption to automatically insert the video file name in a stylish Unicode font! 🎬✨</pre>"
         )
         logger.info(f"📌 Caption set for channel {channel_id}")
     else:
-        await message.reply("⚠️ Usage: /setcaption [your caption here]\nYou can use {filename} in your caption to insert the video filename. Example:\n/setcaption ✨ 𝐓𝐢𝐭𝐥𝐞 :- \"{filename}\"")
+        await message.reply(
+            "⚠️ Usage: /setcaption [your caption here]\n"
+            "You can use {filename} in your caption to insert the video filename. Example:\n"
+            "/setcaption ✨ 𝐓𝐢𝐭𝐥𝐞 :- \"{filename}\""
+        )
         logger.warning("⚠️ setcaption used without text.")
 
 @app.on_message(filters.video & filters.channel)
@@ -96,17 +100,15 @@ def auto_caption(client, message: Message):
 @app.on_message(filters.command("start"))
 async def start(client, message: Message):
     await message.reply_photo(
-    photo=image,  # Optional: Replace with your image
-    caption=(
-        "<b>👋 Hello Boss!</b>\n\n"
-        "I'm <b>alive</b> and ready to auto-caption your channel videos "
-        "with <u>fancy Unicode-style filenames</u>! 🔥\n\n"
-        "<b>📌 How to set your custom caption:</b>\n"
-        "/setcaption ✨ 𝐓𝐢𝐭𝐥𝐞 :- <code>\"{filename}\"</code>\n\n"
-        "<b>📝 Note:</b>\n"
-        "<pre>Use {filename} to insert the video title.</pre>\n"
-        "<i>Say goodbye to boring captions! 🚀</i>"
-    )
+        photo=image,
+        caption=(
+            "✨ <b>𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐀𝐮𝐭𝐨 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐁𝐨𝐭! ✨</b>\n\n"
+            "🎬 <b>Instantly add stylish Unicode captions to your channel videos!</b>\n\n"
+            "📌 <b>How to set your custom caption:</b>\n"
+            "/setcaption ✨ 𝐓𝐢𝐭𝐥𝐞 :- <code>\"{filename}\"</code>\n\n"
+            "💡 <b>Tip:</b> Use <code>{filename}</code> anywhere in your caption to insert the video file name automatically, beautifully styled in Unicode!\n\n"
+            "🚀 <i>Simple, fast, and elegant!</i>"
+        )
     )
     logger.info(f"🚀 Bot started by user {message.from_user.id}")
 

@@ -1,10 +1,15 @@
+<!-- Header Banner -->
+<p align="center">
+  <img src="https://files.catbox.moe/46hgwr.png" alt="header banner">
+</p>
+
 # 💫 About Me:
-👋 Hey! I’m a 20-year-old tech enthusiast with a strong passion for **automation, homelabbing, and infrastructure engineering**.<br><br>
-⚡ I love experimenting with **server utilities, deployment pipelines, networking automation, and self-hosted setups**.<br><br>
-💡 I’m an **AI-friendly coding explorer**, always curious about building systems that blend automation with intelligence.<br><br>
-🚀 My focus is on **SaaS-grade, production-ready solutions**, crafting tools and platforms that can scale and deliver at professional standards.<br><br>
-🤝 Open to **collaborations, freelance projects, and solopreneur ventures** where I can build, automate, and optimize real-world systems.<br><br>
-⚡ **Fun fact:** I believe every problem is just an undocumented feature waiting to be automated.
+👋 Hi! I’m a 20-year-old tech enthusiast passionate about **automation, homelabbing, and infrastructure engineering**.<br><br>
+⚡ I enjoy building **server utilities, deployment pipelines, networking automation, and self-hosted systems**.<br><br>
+💡 An **AI-friendly coding explorer**, I thrive on combining automation with intelligence to create powerful solutions.<br><br>
+🚀 Focused on **SaaS-grade, production-ready platforms**, I aim to build tools that are scalable, reliable, and impactful.<br><br>
+🤝 Open to **collaborations, freelance projects, and solopreneur ventures** where tech transforms ideas into reality.<br><br>
+⚡ **Fun fact:** I see automation not as convenience but as the highest form of problem-solving efficiency.
 
 ---
 
@@ -44,6 +49,11 @@
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white) 
 ![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=for-the-badge&logo=truenas&logoColor=white) 
 ![pfSense](https://img.shields.io/badge/pfSense-212121?style=for-the-badge&logo=pfsense&logoColor=white) 
+![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?style=for-the-badge&logo=pi-hole&logoColor=white)
+![AdGuard](https://img.shields.io/badge/AdGuard-68BC71?style=for-the-badge&logo=adguard&logoColor=white)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-41BDF5?style=for-the-badge&logo=home-assistant&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=for-the-badge&logo=portainer&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-231F20?style=for-the-badge&logo=tailscale&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) 
 
 ### 📦 Containers & Orchestration
@@ -52,10 +62,13 @@
 
 ### 🛠 Productivity
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) 
-
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+<!--
 ---
 
-<!--
+
 # 📊 GitHub Stats (disabled for now):
 ![](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=false)<br/>
@@ -64,6 +77,7 @@
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=YOUR_USERNAME&icon=0&color=6)](https://visitcount.itsvg.in)
 
-<!-- Crafted with curiosity, automation, and coffee ☕ -->
+<div align="center">
+  <h2><i>💡 “All our dreams can come true, if we have the courage to pursue them.” – Walt Disney 💫</i></h2>
+</div>

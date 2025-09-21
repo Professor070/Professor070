@@ -4,11 +4,11 @@
 </p>
 
 # 💫 About Me:
-👋 Hi! I’m a 20-year-old tech enthusiast passionate about **automation, homelabbing, and infrastructure engineering**.<br><br>
+👋🏻 Hi! I’m a 20-year-old tech enthusiast passionate about **automation, homelabbing, and infrastructure engineering**.<br><br>
 ⚡ I enjoy building **server utilities, deployment pipelines, networking automation, and self-hosted systems**.<br><br>
 💡 An **AI-friendly coding explorer**, I thrive on combining automation with intelligence to create powerful solutions.<br><br>
 🚀 Focused on **SaaS-grade, production-ready platforms**, I aim to build tools that are scalable, reliable, and impactful.<br><br>
-🤝 Open to **collaborations, freelance projects, and solopreneur ventures** where tech transforms ideas into reality.<br><br>
+🫱🏻‍🫲🏻 Open to **collaborations, freelance projects, and solopreneur ventures** where tech transforms ideas into reality.<br><br>
 ⚡ **Fun fact:** I see automation not as convenience but as the highest form of problem-solving efficiency.
 
 ---

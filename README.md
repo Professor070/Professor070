@@ -1,6 +1,6 @@
 <!-- Header Banner -->
 <p align="center">
-  <img src="https://files.catbox.moe/46hgwr.png" alt="header banner">
+  <img src="https://files.catbox.moe/lmx784.png" alt="header banner">
 </p>
 
 # 💫 About Me:
